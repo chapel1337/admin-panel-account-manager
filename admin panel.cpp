@@ -79,7 +79,7 @@ void renameAccount()
     {
         clear();
 
-        // std::system(("wmic useraccount where name='%USERNAME%' call rename '" + accountName + "'").c_str());
+        std::system(("wmic useraccount where name='%USERNAME%' call rename '" + accountName + "'").c_str());
         
         cout << "renamed account, name is now: " << "'" << accountName << "'\n";
 
@@ -114,7 +114,7 @@ void changeAccountPassword()
     {
         clear();
 
-        // std::system(("net user %USERNAME% '" + accountPassword + "'").c_str());
+        std::system(("net user %USERNAME% '" + accountPassword + "'").c_str());
 
         cout << "changed password, it's now: " << "'" << accountPassword << "'\n";
 
@@ -149,7 +149,7 @@ void deleteAccount()
     {
         clear();
 
-        // std::system(("net user '" + deletedAccount + "' /delete").c_str());
+        std::system(("net user '" + deletedAccount + "' /delete").c_str());
 
         cout << "account deleted, the account was: " << "'" << deletedAccount << "'\n";
 
