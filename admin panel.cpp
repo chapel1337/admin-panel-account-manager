@@ -5,9 +5,10 @@
 // written by chapel1337
 // started making this yesterday night (9/27/2022), but was being crushed by homework
 // finished making this also at night on 9/28/2022 (today)
-// my largest and most ambitious project yet™
+// my largest and most ambitious project yetâ„¢
 // 475 lines
 // probably could've made this into multiple linked files
+// i recommend running this with administrator permissions enabled for it to fully work
 
 using std::cout; using std::string; using std::cin;
 
